@@ -3,6 +3,11 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 提交本仓库代码
+git add .
+git commit -m 'blog: $1'
+git push
+
 # 生成静态文件
 npm run build
 
