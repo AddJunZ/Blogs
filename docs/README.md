@@ -1,13 +1,5 @@
-# Hello VuePress
+# 你好 IntersectionObserver
 
-{{ 1+1 }}
+[[toc]]...
 
-<span v-for="i in 3">{{ i }} </span>
-
-{{ $page }}
-
-::: v-pre
-`{{ This will be displayed as-is }}`
-:::
-
-<Test/>
+<test/>

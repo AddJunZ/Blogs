@@ -8,6 +8,11 @@
 <script>
 export default {
   name: 'Test',
+  mounted() {
+    setTimeout(() => {
+      console.log('123');
+    }, 3000)
+  }
 }
 </script>
 
